@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;margin: 0px;
+}
+nav{
+    position : fixed;
+    text-align: center;
+    width: 100%;
+    font-size: 120%;
+    background: linear-gradient(90deg, rgba(9,9,121,1) 24%, rgba(4,117,192,1) 74%, rgba(1,185,237,1) 97%, rgba(0,212,255,1) 100%);
+    border-radius: 10% 10% 70% 70%;
+    padding: 2%;
+    
+   
+}
+
+
+nav > a{
+    font-family: "Gill Sans", serif;
+    color: white;
+    padding-left:5%;
+    padding-right:5%;
+    
+    text-decoration:none;
+    
+
+}
+nav > a:hover{
+    font-style: bold;
+    transition: 0.4s;
+    font-size: 1.5em;
+    text-decoration:underline;
+
+}
+
+
+.AproposDeMoi{
+    border: 100px;
+    border-color: black;
+    
+    
+    padding:15%;
+    
+    
+}
+.AproposDeMoi:hover{
+    
+}
+.Experience{
+    background-color: blue;
+   
+    padding:15%;
+    
+}
+.MonParcous{
+    padding:15%;
+
+}
+
+.main {
+    display: flex; 
+    flex-direction: column;
+    
+
+}
