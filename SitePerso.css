@@ -3,7 +3,7 @@
 }
 nav{
     position : fixed;
-    text-align: center;
+    
     width: 100%;
     font-size: 120%;
     background: linear-gradient(90deg, rgba(9,9,121,1) 24%, rgba(4,117,192,1) 74%, rgba(1,185,237,1) 97%, rgba(0,212,255,1) 100%);
@@ -12,6 +12,7 @@ nav{
     
    
 }
+
 
 
 nav > a{
@@ -24,15 +25,19 @@ nav > a{
     
 
 }
-nav > a:hover{
+ul > li:hover{
     font-style: bold;
     transition: 0.4s;
-    font-size: 1.5em;
+    font-size: 1.4em;
     text-decoration:underline;
 
 }
-
-
+ul > li > .sous-menu :hover{
+    font-style: bold;
+    transition: 0.4s;
+    font-size:1em;
+    text-decoration:underline;
+}
 .AproposDeMoi{
     border: 100px;
     border-color: black;
@@ -42,9 +47,33 @@ nav > a:hover{
     
     
 }
-.AproposDeMoi:hover{
+.menu ul{
+    display: none   ;
+    list-style-type: none;
+  
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+   justify-content: space-evenly;     
     
 }
+.menu a {
+    display: block;
+    width: 100%;
+    
+    color: #fff;
+    
+    text-decoration: none;
+    padding: 3px 10px;
+   
+  }
+  .menu li:hover ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+
 .Experience{
     background-color: blue;
    
