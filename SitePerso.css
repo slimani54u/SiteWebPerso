@@ -6,7 +6,7 @@ nav{
     
     width: 100%;
     font-size: 120%;
-    background: linear-gradient(90deg, rgba(9,9,121,1) 24%, rgba(4,117,192,1) 74%, rgba(1,185,237,1) 97%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(9,9,121,0.8) 24%, rgba(4,117,192,0.8) 74%, rgba(1,185,237,0.8) 97%, rgba(0,212,255,0.8) 100%);
     border-radius: 10% 10% 70% 70%;
     padding: 2%;
     
@@ -14,7 +14,9 @@ nav{
 }
 
 
-
+.menu{
+    z-index: 10;
+}
 nav > a{
     font-family: "Gill Sans", serif;
     color: white;
@@ -37,14 +39,16 @@ ul > li > .sous-menu :hover{
     transition: 0.4s;
     font-size:1em;
     text-decoration:underline;
+    
 }
 .AproposDeMoi{
-    border: 100px;
-    border-color: black;
     
     
-    padding:15%;
+    background-color:antiquewhite;
     
+    
+    padding:5%;
+    padding-top: 10%;
     
 }
 .menu ul{
@@ -91,3 +95,82 @@ ul > li > .sous-menu :hover{
     
 
 }
+.AproposDeMoi > header{
+    font-style: italic;
+    font-size: 180%;
+    font-weight:600;
+    padding-bottom: 3%;
+}
+.Q {
+    display: flex;
+    flex-direction: row;
+    font-style:oblique;
+    font-size: 120%;
+    max-height: 50%;
+    padding-bottom: 3%;
+    
+}
+
+
+.Q>img {
+    border: 1px solid #ddd;
+    border-radius: 2%;
+    width: 30%;
+    
+    
+    
+    
+    
+  }
+  
+  
+  
+  
+  .Q .container{  
+    width: 70%;
+    padding: 5%;
+    padding-top: 10%;
+    
+    margin-left: 15%;
+}
+  
+
+  
+  
+  .box{
+    
+    background: #111845a6;
+    
+    
+    box-shadow: 0 20px 50px rgb(23, 32, 90);
+    border: 2px solid #2a3cad;
+    border-bottom: 2px solid #2a3cad;
+    color: white;
+    padding: 20px;
+  }
+  
+  
+  
+  
+  
+  
+  .box .content{
+    
+   
+    border:1px solid #f0a591;
+    
+    padding:20px;
+    padding-bottom: 7%;
+    
+    text-align:center;
+    box-shadow: 0 5px 10px rgba(9,0,0,0.5);
+    
+  }
+  
+
+  
+  
+  
+  
+  
+  
