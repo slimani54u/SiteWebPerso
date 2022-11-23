@@ -94,20 +94,22 @@ nav > ul > li > .sous-menu :hover{
 }
 
 .Experience   header span{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+    
+    
     font-weight: bold;
     font-size:200%;
     
 }
 .Experience > header{
-    
+    display: flex;
+    flex-direction: column;
     margin: 5%;
     padding: 1%;
+    justify-content: center;
     border: none;
     border-radius: 40%;
-    background: rgba(103, 164, 250, 0.5);}
+    background: rgba(103, 164, 250, 0.5);
+    }
 
 .MonParcous{
     background-image: url("wallpaper.jfif");
