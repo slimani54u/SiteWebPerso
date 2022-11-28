@@ -92,10 +92,15 @@
     padding: 10%;
     
   }
+  .cs{
+    font-size: 110%;
+  }
+
   .line >h1{
     font-family:'Times New Roman', Times, serif;
     font-size: 300%;
-    color: #fff;    
+    color: #fff;  
+    padding-bottom: 2%;  
   }
   .main{
     color: #fff;
