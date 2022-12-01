@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+
+}
+
+nav {
+  position: fixed;
+
+  width: 100%;
+  font-size: 120%;
+  background: linear-gradient(90deg, rgba(9, 9, 121, 0.8) 24%, rgba(4, 117, 192, 0.8) 74%, rgba(1, 185, 237, 0.8) 97%, rgba(0, 212, 255, 0.8) 100%);
+  border-radius: 10% 10% 70% 70%;
+  padding: 2%;
+  z-index: 100000;
+
+}
+
+
+.menu {
+  z-index: 10;
+}
+
+nav>a {
+  font-family: "Gill Sans", serif;
+  color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+
+  text-decoration: none;
+
+
+}
+
+nav>ul>li:hover {
+
+  transition: 0.4s;
+  font-size: 1.4em;
+  text-decoration: underline;
+
+}
+
+nav>ul>li>.sous-menu :hover {
+
+  transition: 0.4s;
+  font-size: 1em;
+  text-decoration: underline;
+
+}
+
+.AproposDeMoi {
+
+
+  background-color: antiquewhite;
+
+
+  padding: 5%;
+  padding-top: 10%;
+
+}
+
+.menu ul {
+  display: none;
+  list-style-type: none;
+
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+
+}
+
+.menu a {
+  display: block;
+  width: 100%;
+
+  color: #fff;
+
+  text-decoration: none;
+  padding: 3px 10px;
+
+}
+
+.menu li:hover ul {
+  display: flex;
+  flex-direction: column;
+}
+nav > .menu > li > button{
+  
+  width: 40px;
+  height: 40px;
+  
+  border-radius: 50%;
+  border-color: #fff;
+  
+  background-image: url("images/trad.png");
+  cursor: pointer;
+  }
+  nav > .menu > li > button > a {
+    width:35px;
+    height:35px;
+    }
+
+body:before {
+  content: "";
+  position: fixed;
+  height: 100%; width: 100%;
+  background: url("images/CoucherSoleil.jpg");
+  background-size: cover;
+  z-index: -1;      
+  -webkit-filter: blur(8px);
+-webkit-background-size: cover; /* pour Chrome et Safari */
+-moz-background-size: cover; /* pour Firefox */
+-o-background-size: cover; /* pour Opera */
+background-size: cover; /* version standardisée */
+}
+
+.space{
+  margin-bottom: 7%;
+}
+
+.Aventures{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.Aventures>header{
+  padding: 3%;
+  width: 100%;
+  max-width: 1000px;
+  text-align: center;
+  background-color: rgb(85, 82,80,0.8);
+  color:#fff;
+  font-size: 250%;
+  
+}
+
+.int-a{
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  flex-wrap: wrap;
+  padding-bottom:3%;
+  flex-basis: 100%;
+  
+}
+
+
+
+.voyager{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.voyager >header{
+  font-size: 300%;
+  color:aliceblue;
+  display: flex;
+  align-items: center;
+}
+.int-b{
+  display: flex;
+  flex-direction: row;
+  max-width: 750px;
+  flex-wrap: wrap;
+  padding-bottom:3%;
+  flex-basis: 100%;
+  
+  
+}
+.int-b >img {
+  width: 250px;
+}
+
+

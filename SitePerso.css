@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
   margin: 0px;
@@ -48,17 +49,6 @@ nav>ul>li>.sous-menu :hover {
 
 }
 
-.AproposDeMoi {
-
-
-  background-color: #001E29;
-
-
-  padding: 5%;
-  padding-top: 10%;
-
-}
-
 .menu ul {
   display: none;
   list-style-type: none;
@@ -87,6 +77,36 @@ nav>ul>li>.sous-menu :hover {
   display: flex;
   flex-direction: column;
 }
+nav > .menu > li > button{
+  
+  width: 40px;
+  height: 40px;
+  
+  border-radius: 50%;
+  border-color: #fff;
+  
+  background-image: url("images/trad.png");
+  cursor: pointer;
+  }
+  nav > .menu > li > .btn > a {
+    width:35px;
+    height:35px;
+    }
+
+.AproposDeMoi {
+
+
+  background-color: #001E29;
+
+
+  padding: 5%;
+  padding-top: 10%;
+
+}
+
+
+
+
 
 
 .Experience {
@@ -176,34 +196,38 @@ hr:after {
   font-style: italic;
   font-size: 180%;
   font-weight: 600;
+  
   margin-left: 25%;
+  margin-bottom: 5%;
+  
   color: #fff;
 
 }
 
 .Q {
   display: flex;
-  flex-direction: row;
+  
   font-style: oblique;
   font-size: 120%;
-  align-items: center;
   justify-content: space-evenly;
+  
 
 }
 
 
-.Q>img {
+.Q img {
   border: 1px solid #ddd;
   border-radius: 2%;
   width: 30%;
-  height: 60%;
+  
 }
 
 
 
 
-.Q .container {
+.Q .box {
   width: 40%;
+  margin-bottom: 10% ;
 }
 
 
@@ -213,9 +237,10 @@ hr:after {
   background: #111845a6;
   box-shadow: 0 20px 50px rgb(23, 32, 90);
   border: 2px solid #2a3cad;
-  border-bottom: 2px solid #2a3cad;
+ 
   color: white;
   padding: 20px;
+  
 }
 
 .box .content {
@@ -331,7 +356,7 @@ font-family:'Times New Roman', Times, serif;
   border-left: none;
   border-right: 16px solid #001E29;
 }
-nav > .menu > li > button{
+nav > .menu > li > button {
     
   width: 40px;
   height: 40px;
@@ -341,6 +366,10 @@ nav > .menu > li > button{
   
   background-image: url("images/trad.png");
   cursor: pointer;
+  }
+  nav > .menu > li > button > a {
+  width:2%;
+  height:2%;
   }
 
 
